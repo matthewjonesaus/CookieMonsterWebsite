@@ -118,13 +118,101 @@ body {
     margin: 0 auto;
 }
 
+.tophalf {
 
+    background: cyan;
+    padding-bottom: 3em;
+}
 
+.middle {
 
+    background: #FAF0F9;
+    padding-bottom: 2em;
+}
 
+.feature {
 
+    position: relative;
+}
 
+.feature img {
 
+    width: 100%;
+}
+
+.feature h2 {
+
+    position: absolute;
+    top: 25%;
+    background:rgba(0,0,0,0.3);
+    color: #fff;
+    font-size: 2.6em;
+    padding: 0.5em;
+    width: 150px;
+}
+
+.main {
+
+    position: relative;
+    padding-top: 2em;
+}
+
+.main h3 {
+
+    position: absolute;
+    
+
+    top: -28px;
+    margin: 0;
+    font-size: 2.2em;
+    background: white;
+    padding:0.5em;
+    line-height: 1;
+}
+
+.main p {
+
+    margin: 0;
+    font-size: 1.4em;
+    line-height: 1.3;
+}
+
+.sidebar h4 {
+
+    color: white;
+    background: orange;
+    padding:0.5em;
+    margin: 1em 0 0;
+    font-size: 1.8em;
+    font-weight: 300;
+}
+
+.sidebar ol {
+    margin: 0;
+    padding: 1em 2em;
+    border:1px solid orange;
+    border-top:0;
+}
+
+.sidebar ol li {
+
+    list-style: disc;
+    list-style-position: inside;
+    font-size: 1.4em;
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 0.5em 0 
+
+}
+
+.sidebar ol li span {
+
+    display: block;
+    font-size: 0.8em;
+    color: #444;
+    font-weight: 400;
+    padding-left: 0.1em;
+}
 
 
 
